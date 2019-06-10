@@ -8,6 +8,8 @@ artifactId="";
 groupId="";
 description="";
 
+
+
 #creates maven java application
 create(){
 
@@ -102,6 +104,8 @@ while getopts "slp" opt; do
       ;;
   esac
 done
+
+
 
 # ask for details
 echo "Project name: "
