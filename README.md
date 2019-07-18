@@ -6,7 +6,7 @@ mantra-cli is a command line tool that makes creating Java projects faster and e
 mantra [OPTIONS]
 ```
 
-Man page for this script [here](https://ksundaysky.github.io/mantra-page)
+Manual for this script [here](https://ksundaysky.github.io/mantra-page)
 
 ## Prerequisites
 
@@ -34,14 +34,14 @@ Script works properly if all environment variables are set correctly.
 You should set:
 
 1. git config --global github.user \<username>
-2. git config --global github.token \<token>' [How to generate github token](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line)
+2. git config --global github.token \<token> [How to generate github token](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line)
 
 ## Examples
 
 ### Default configuration
-Default configuration creates Java project with Maven structure, creates git repository localy and remotly (public repo) on github, and push first commit to the server.
+Default configuration creates Java project with Maven structure, creates git repository locally and remotely (public repository) on GitHub, and pushes first commit to the server.
 
-To run default, just type mantra. Project name, packaging and description you will provide while the script is running.
+To run script with default settings, just type *"mantra"*. While the script is running, you will be asked for your new projects name, packaging and description.
 
 ```sh
 mantra
@@ -63,13 +63,10 @@ To create java project and push it to private remote repository just type:
 mantra -p 
 ```
 
-### Local repo only
-Create project but not push it to remote server.
+### Local repository only
+Create project but do not push it to remote server.
 
 ```sh
 #local
 mantra -l 
 ```
-
-
-
